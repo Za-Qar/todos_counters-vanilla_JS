@@ -1,0 +1,43 @@
+.note {
+  color: black;
+  opacity: 1;
+  /* background-color: white; */
+  width: 25%;
+  min-height: 1rem;
+}
+
+.noteTitle {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.noteText {
+  margin: 0;
+  padding: 0;
+}
+
+.whiteNote {
+  background-color: #f9faff;
+}
+
+.greenNote {
+  background-color: rgb(162, 255, 162);
+}
+
+.redNote {
+  background-color: rgb(255, 128, 128);
+}
+
+.purpleNote {
+  background-color: rgb(255, 124, 255);
+}
+
+.peachNote {
+  background-color: rgb(255, 212, 157);
+}
+
+.blueNote {
+  background-color: rgb(109, 148, 255);
+}

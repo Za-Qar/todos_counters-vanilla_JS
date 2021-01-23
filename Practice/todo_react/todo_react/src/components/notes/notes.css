@@ -1,0 +1,74 @@
+.notesSec {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+.notesInput {
+  display: flex;
+  flex-direction: row;
+}
+
+.inputFieldNotesLeft {
+  width: 30%;
+  /* width: calc(100% - 20px); should be a last resord*/
+  border: 1px solid black;
+  border-radius: 50px 0 0 50px;
+  padding: 10px;
+  box-sizing: border-box; /*Makes element calculate the width based on its width without the padding*/
+}
+
+.inputFieldNotesRight {
+  width: 70%;
+  /* width: calc(100% - 20px); should be a last resord*/
+  border: 1px solid black;
+  border-radius: 0 50px 50px 0;
+  padding: 10px;
+  box-sizing: border-box; /*Makes element calculate the width based on its width without the padding*/
+}
+
+.addNoteButton {
+  width: 100%;
+  margin: 10px 0 10px 0;
+  padding: 10px;
+  background-color: rgba(150, 187, 64, 0.7);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/*---------Drag area styling-----------*/
+.drag-area {
+  background: rgba(0, 0, 0, 0.3);
+  /* width: 50%;
+    height: 70%; */
+  width: auto;
+  min-height: 30rem;
+  border-radius: 30px;
+  top: calc(50% - 200px);
+  left: calc(35% - 135px);
+}
+
+.base {
+  /* border-radius: 30px; */
+  /* width: 150px;*/
+  /* height: 150px; */
+  position: absolute;
+}
+
+.titleBar {
+  background-color: grey;
+  padding: 10px 0px 10px 0;
+  color: white;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.note p {
+  padding: 10px;
+}
