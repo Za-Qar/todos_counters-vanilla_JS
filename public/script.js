@@ -102,7 +102,7 @@ let deleteTodo = (id) => {
 
 //Retrieve All
 async function retrieveAll() {
-  let res = await fetch("http://localhost:5000/");
+  let res = await fetch("http://localhost:5000/"); //process.env.REACT_APP_HOST_URL - for react
   let data = await res.json();
   return data.payload;
 }
